@@ -1,0 +1,34 @@
+{
+  "name": "sfp-sales-pop",
+  "version": "0.7.0",
+  "description": "Real time notifications of recent sales on your Storefront Pro store",
+  "author": "Shramee",
+  "license": "GPL-3.0",
+  "main": "storefront-pro-sales-pop.php",
+  "keywords": [
+    "sass",
+    "grunt",
+    "autoprefixer"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-newer": "1",
+    "grunt-autoprefixer": "~3.0.4",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-sass": "~1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "~1.0.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pootlepress/storefront-pro-sales-pop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pootlepress/storefront-pro-sales-pop/issues"
+  },
+  "homepage": "https://github.com/pootlepress/storefront-pro-sales-pop#readme"
+}

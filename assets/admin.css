@@ -1,0 +1,36 @@
+/** Plugin admin end styles  @package Storefront_Pro_Sales_Pop @version 1.0.0 */
+#customize-header-actions #sfp-sales-pop-save-dialog { position: absolute; top: 0; left: 52px; }
+
+#sfp-sales-pop-apply-confirm, #sfp-sales-pop-overlay, #sfp-sales-pop-notice, #sfp-sales-pop-dialog { position: fixed; top: 0; left: 0; right: 0; bottom: 0; margin: auto; background: rgba(0, 0, 0, 0.5); z-index: 97; }
+
+#sfp-sales-pop-apply-confirm { height: 70px; width: 520px; padding: 1em; background: #fff; border: 1px outset #aaa; }
+#sfp-sales-pop-apply-confirm button, #sfp-sales-pop-apply-confirm p { margin: 1em; float: right; }
+
+#sfp-sales-pop-notice { height: 52px; width: 520px; text-align: center; background: none; }
+
+#sfp-sales-pop-notice-message { padding: 1em 1.6em; display: inline-block; font: 200 25px lato, sans-serif; background: #0085ba; color: #fff; border-radius: 99px; }
+
+#sfp-sales-pop-dialog { background: none; height: 39px; width: 90vw; max-width: 520px; }
+#sfp-sales-pop-dialog > input, #sfp-sales-pop-dialog > button { text-align: center; line-height: 35px; padding: 0; margin: 0; box-sizing: border-box; height: auto; box-shadow: none; float: left; width: 21%; border-radius: 0 5px 5px 0; }
+#sfp-sales-pop-dialog input { padding: 0 0.5em; text-align: left; width: 79%; border-radius: 5px 0 0 5px; }
+#sfp-sales-pop-dialog .notice.already-exists { width: 100%; position: absolute; bottom: 124%; padding: 1em; box-sizing: border-box; left: 0; margin: 0; border-radius: 5px; }
+#sfp-sales-pop-dialog .notice.already-exists * { margin: 0; }
+#sfp-sales-pop-dialog .notice.already-exists button { float: right; }
+
+.no-skins { font-size: 1.1em; color: #777; }
+
+h3.sfp-skin-button { padding: 1em; background: #fff; border: 1px solid #ccc; cursor: pointer; opacity: 0.88; position: relative; }
+h3.sfp-skin-button:hover { opacity: 1; }
+h3.sfp-skin-button .delete { position: absolute; top: 50%; margin-top: -10px; right: 0.5em; }
+h3.sfp-skin-button ~ .no-skins { display: none; }
+
+.wp-full-overlay-sidebar .wp-full-overlay-sidebar-content { top: 90px; }
+
+#sfp-sales-pop-actions { position: absolute; top: 45px; left: 0; right: 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+#sfp-sales-pop-actions .button { float: right; margin: 7px 0; padding: 0 10px 0 7px; }
+#sfp-sales-pop-actions .button .dashicons { vertical-align: middle; margin-bottom: 2px; }
+#sfp-sales-pop-actions #sfp-sales-pop-view { float: left; }
+
+#accordion-section-sfp_skins_section > .accordion-section-title { display: none; }
+
+/*# sourceMappingURL=admin.css.map */
